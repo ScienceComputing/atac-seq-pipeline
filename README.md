@@ -13,8 +13,8 @@
 - The outputs produced by the pipeline include:
   1) formatted HTML reports that include **quality control measures** specifically designed for ATAC-seq and DNase-seq data,
   2) analysis of reproducibility,
-  3) 3) **stringent and relaxed thresholding of peaks**,
-     4) 4) **fold-enrichment and pvalue signal tracks**. 
+  3) **stringent and relaxed thresholding of peaks**,
+  4) **fold-enrichment and pvalue signal tracks**. 
 - The pipeline also supports detailed error reporting and allows for **easy resumption of interrupted runs**.
 - It has been **tested on some human, mouse and yeast ATAC-seq datasets** as well as on human and mouse DNase-seq datasets.
 
