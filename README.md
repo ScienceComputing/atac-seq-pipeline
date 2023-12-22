@@ -13,8 +13,8 @@
 - The outputs produced by the pipeline include:
   1) formatted HTML reports that include *quality control measures* specifically designed for ATAC-seq and DNase-seq data,
   2) analysis of reproducibility,
-  3) *stringent and relaxed thresholding of peaks*,
-  4) *fold-enrichment and pvalue signal tracks*. 
+  3) stringent and relaxed *thresholding of peaks*,
+  4) *fold-enrichment* and *pvalue signal tracks*. 
 - The pipeline also supports detailed error reporting and allows for *easy resumption of interrupted runs*.
 - It has been *tested on some human, mouse and yeast ATAC-seq datasets* as well as on human and mouse DNase-seq datasets.
 
@@ -22,9 +22,9 @@ The ATAC-seq pipeline protocol specification is [here](https://docs.google.com/d
 
 ### Features
 
-* **Portability**: The pipeline run can be performed across different cloud platforms such as Google, AWS and DNAnexus, as well as on cluster engines such as SLURM, SGE and PBS.
+* **Portability**: The pipeline run can be performed across different *cloud platforms* such as Google, AWS and DNAnexus, as well as on *cluster engines* such as SLURM, SGE and PBS.
 * **User-friendly HTML report**: In addition to the standard outputs, the pipeline generates an HTML report that consists of a tabular representation of quality metrics including alignment/peak statistics and FRiP along with many useful plots (IDR/TSS enrichment). An example of the [HTML report](https://storage.googleapis.com/encode-pipeline-test-samples/encode-atac-seq-pipeline/ENCSR889WQX/example_output/qc.html). The [json file](https://storage.googleapis.com/encode-pipeline-test-samples/encode-atac-seq-pipeline/ENCSR889WQX/example_output/qc.json) used in generating this report.
-* **Supported genomes**: Pipeline needs genome specific data such as aligner indices, chromosome sizes file and blacklist. We provide a genome database downloader/builder for hg38, hg19, mm10, mm9. You can also use this [builder](docs/build_genome_database.md) to build genome database from FASTA for your custom genome.
+* **Supported genomes**: Pipeline needs *genome specific data* such as aligner indices, chromosome sizes file and blacklist. We provide a genome database downloader/builder for hg38, hg19, mm10, mm9. You can also use this [builder](docs/build_genome_database.md) to build genome database from FASTA for your custom genome.
 
 ## Installation
 
